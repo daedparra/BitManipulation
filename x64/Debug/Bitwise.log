@@ -1,0 +1,13 @@
+﻿Bitwise.obj : error LNK2019: unresolved external symbol SDL_CreateWindow referenced in function WinMain
+Bitwise.obj : error LNK2019: unresolved external symbol SDL_GetKeyboardState referenced in function "public: bool __cdecl InputManager::IsButtonDown(int)const " (?IsButtonDown@InputManager@@QEBA_NH@Z)
+Bitwise.obj : error LNK2019: unresolved external symbol SDL_PumpEvents referenced in function WinMain
+Bitwise.obj : error LNK2019: unresolved external symbol SDL_PollEvent referenced in function WinMain
+Bitwise.obj : error LNK2019: unresolved external symbol SDL_CreateRenderer referenced in function WinMain
+Bitwise.obj : error LNK2019: unresolved external symbol SDL_RenderSetViewport referenced in function WinMain
+Bitwise.obj : error LNK2019: unresolved external symbol SDL_RenderSetScale referenced in function WinMain
+Bitwise.obj : error LNK2019: unresolved external symbol SDL_SetRenderDrawColor referenced in function WinMain
+Bitwise.obj : error LNK2019: unresolved external symbol SDL_RenderClear referenced in function WinMain
+Bitwise.obj : error LNK2019: unresolved external symbol SDL_RenderPresent referenced in function WinMain
+Bitwise.obj : error LNK2019: unresolved external symbol SDL_Init referenced in function WinMain
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\David Parra\Downloads\Bitwise\x64\Debug\Bitwise.exe : fatal error LNK1120: 12 unresolved externals
